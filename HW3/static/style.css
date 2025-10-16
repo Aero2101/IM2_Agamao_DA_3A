@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🌤 Background */
+.neutral-bg {
+    background: linear-gradient(135deg, #e0f3ff 0%, #d0e3ff 100%);
+    min-height: 100vh;
+}
+
+/* 🧊 Form Card */
+.form-card {
+    border-radius: 20px;
+    max-width: 600px;
+    background: #ffffffd8;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* 🧑‍💻 Profile Card */
+.profile-card {
+    max-width: 450px;
+    border-radius: 25px;
+    background: #ffffffdd;
+    overflow: hidden;
+}
+
+.profile-header {
+    background: linear-gradient(135deg, #007bff, #00b4d8);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* 🎨 Inputs */
+.neutral-input {
+    border: 1px solid #c9d6ff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.neutral-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.2);
+}
+
+/* 🔘 Button */
+.neutral-btn {
+    background: linear-gradient(135deg, #007bff, #00b4d8);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.neutral-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #00b4d8, #007bff);
+}
+
+/* 🧭 Title */
+.neutral-title {
+    font-weight: 600;
+    color: #0059b3;
+}
